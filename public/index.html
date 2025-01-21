@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Task Manager</title>
+  </head>
+  <body>
+    <div id="container">
+      <header id="main-header">Task Manager</header>
+      <input type="text" id="add-task" placeholder="Enter task" />
+      <select id="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button id="add-task-btn">Add Task</button>
+
+      <ul id="task-list"></ul>
+      <!-- Task list will be displayed here -->
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
